@@ -1,3 +1,15 @@
-# www.simonjjones.com
+# Personal Website
 
-The personal website of Simon Jones  
+Features elixir backend and elm frontend  
+
+### Deploying
+
+```sh
+$ ./deploy.sh
+```
+
+### Testing
+
+```sh
+$ ./test.sh
+```
