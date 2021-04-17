@@ -2,7 +2,7 @@
 
 let
   shellname = "www";
-  myRust = with pkgs; [ elixir elm ];
+  myRust = with pkgs; [ elixir elmPackages.elm ];
 in
   pkgs.stdenv.mkDerivation {
     name = shellname;
